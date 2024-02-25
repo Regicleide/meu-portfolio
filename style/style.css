@@ -1,0 +1,130 @@
+
+:root{
+    
+    --cor-primaria:#647D87;
+    --cor-secundaria:#DCD7C9;
+    --cor-terciaria:#000000;
+    --cor-hover: #f6f6f6;
+    --font-principal:'Mulish',sans-serif;
+    --font-secundaria:'Nunito', sans-serif;
+}
+ @import url('https://fonts.googleapis.com/css2? family= Mulish &família = Nunito & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+/* height:100vh; */
+background-color:var(--cor-primaria);
+color:var(--cor-secundaria);
+box-sizing: border-box;
+}
+.cabecalho{
+    padding: 1% 0% 0% 8%;
+
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+
+}
+.cabecalho__menu__link{
+font-family:var(--font-principal);
+font-size: 24px;
+font-weight: 600;
+color: var(--cor-terciaria);
+text-decoration: none;
+
+
+}
+
+.titulo__destaque {
+    color:var(--cor-hover);
+    
+}
+.apresentacao{
+    padding:5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+
+}
+.apresentacao__conteudo{
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.apresentacao__conteudo__titulo{
+    font-size:1.5rem;
+    font-family:var(--font-principal);
+    color: var(--cor-terciaria);
+   
+    
+}
+.apresentacao__conteudo__texto{
+    font-size: 1.5rem;
+    font-family:var(--font-secundaria);
+    gap: 24px;
+    color: var(--cor-terciaria);
+    
+}
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+    color:var(--cor-terciaria);
+   
+   
+
+}
+.apresentacao__links__subtitulo{
+    font-family:var(--font-principal);
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: var(--cor-terciaria);
+    
+   
+   
+}
+
+.apresentacao__links__link{
+
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 50%;
+    height: 30px;
+    text-align:center;
+    font-weight: 600;
+    border-radius:10px;
+    font-size: 1.5rem;
+    padding:20px 0 ;
+    text-decoration:none ;
+    color:var(--cor-terciaria);
+    font-family:var(--font-principal);
+    border: 5px solid var(--cor-terciaria);
+    
+}
+.apresentacao__foto{
+    width: 40%;
+    height:40%;
+    border-radius:60px;
+}
+.apresentacao__links__link:hover{
+    color:var(--cor-hover);
+}
+.rodape{
+    padding: 23px;
+    color:var(--cor-secundaria);
+    background-color:var(--cor-terciaria);
+text-align: center;
+}
+
+.apresentacao__conteudo{
+    padding: auto;
+}
